@@ -1,17 +1,22 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 
 const BoardList = () => {
+    const navigate = useNavigate();
     const [boardList, setBoardList] = useState([]);
 
     const getBoardList = async () => {
-        const res = (await axios.get('//localhost:8081/board')).data
+        const res = (await axios.get('http://localhost:8081/board')).data
         setBoardList(res.data);
-        console.log(res.data)
+        console.log(res.data);
         
         const pngn = res.pagination;
         console.log(pngn);
+    };
+
+    const moveToWrite = () => {
+        navigate('/write');
     }
 
     useEffect(() => {
@@ -29,6 +34,9 @@ const BoardList = () => {
                 </li>
                 ))}
             </ul>
+            <div>
+                <button onClick={moveToWrite}>Write</button>
+            </div>
         </div>
     );
 };
