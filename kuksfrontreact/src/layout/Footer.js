@@ -1,11 +1,12 @@
 import React from 'react';
-
+import { FaGithub } from 'react-icons/fa';
 const Footer = () => {
   return (
-    <footer>
-      <hr/>
-      푸터 입니다.
-    </footer>
+      <footer>
+          <hr/>
+          <br/>
+          <a href="https://pomi-4-me.tistory.com/"> Kuks Tistory</a>
+      </footer>
   );
 };
 
