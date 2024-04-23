@@ -8,10 +8,11 @@ import kuks.back.kuksbackboot.util.Pagination;
 import kuks.back.kuksbackboot.util.Search;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.HashMap;
 import java.util.List;
-
+@CrossOrigin(origins = "http://localhost:3000")
 @RequiredArgsConstructor
 @Service
 public class BoardService {
