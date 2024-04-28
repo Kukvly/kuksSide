@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&height=200&section=header&text=Kuks%20Profile%20Maker&fontSize=90&fontColor=ffffff)
+![header](https://capsule-render.vercel.app/api?type=wave&color=%23f2f2f2&height=200&section=header&text=Kuks%20Profile%20Maker&fontSize=90&fontColor=ffffff)
 
 <h4>
   Hello. I'm Kim Yun Kuk, a 3rd-year developer.
@@ -110,4 +110,4 @@ $ node app
 - Build Tools: ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
 - Database:   ![MySQL Workbench](https://img.shields.io/badge/MySQL%20Workbench-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=#B897FF&height=200&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=%23f2f2f2&height=200&section=footer)
