@@ -42,3 +42,5 @@ CREATE TABLE `kuks_board` (
 깃 연습
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kukvly)](https://github.com/Kukvly/github-readme-stats)
 
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
