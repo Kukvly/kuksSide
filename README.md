@@ -31,13 +31,13 @@ DB 구성
 | title        | varchar(255)| NULL     | 제목            |
 
 ### kuks_board DDL
-CREATE TABLE `kuks_board` (
-  `idx` bigint NOT NULL AUTO_INCREMENT,
-  `contents` varchar(255) DEFAULT NULL,
-  `createdAt` datetime(6) DEFAULT NULL,
-  `createdBy` varchar(255) DEFAULT NULL,
-  `title` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`idx`))
+CREATE TABLE `kuks_board` (<br>
+  `idx` bigint NOT NULL AUTO_INCREMENT,<br>
+  `contents` varchar(255) DEFAULT NULL,<br>
+  `createdAt` datetime(6) DEFAULT NULL,<br>
+  `createdBy` varchar(255) DEFAULT NULL,<br>
+  `title` varchar(255) DEFAULT NULL,<br>
+  PRIMARY KEY (`idx`))<br>
 
 
 
