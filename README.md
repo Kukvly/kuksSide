@@ -10,7 +10,8 @@ kuksbackboot: http://localhost:8081 <br>
 kuksfrontreact: http://localhost:3000 <br>
 kukssns: http://localhost:8090 <br>
 
-```shell
+```diff
+
 $ ls -l
 total 0
 -rw-r--r-- 1 user user 0 Apr 28 12:00 file1.txt
