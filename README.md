@@ -6,9 +6,16 @@ Back-End: Spring Boot, Nodejs
 Front-End: React, Nodejs
 
 주소 및 포트
-kuksbackboot: http://localhost:8081
-kuksfrontreact: http://localhost:3000
-kukssns: http://localhost:8090
+kuksbackboot: http://localhost:8081 <br>
+kuksfrontreact: http://localhost:3000 <br>
+kukssns: http://localhost:8090 <br>
+
+```shell
+$ ls -l
+total 0
+-rw-r--r-- 1 user user 0 Apr 28 12:00 file1.txt
+-rw-r--r-- 1 user user 0 Apr 28 12:00 file2.txt
+```
 
 메뉴 탭 구성
 Home: 게시글 목록 조회 기능
@@ -42,7 +49,11 @@ CREATE TABLE `kuks_board` (<br>
 
 
 프로젝트 실행 방법
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kukvly)](https://github.com/Kukvly/github-readme-stats)
+
+
+프로젝트 언어 구성
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kukvly&langs_count=2&hide=java,css,html&layout=compact&exclude_repo=!kukssns,!kuksside)](https://github.com/Kukvly/github-readme-stats)
+
 
 
 깃 연습
