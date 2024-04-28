@@ -20,17 +20,23 @@ Kuks SNS: NodeJs로 구현한 SNS 서비스 어플리케이션
 Kuks: 카카오 인증을 통해 이력서, 경력 기술서 등의 프로필을 확인
 
 DB 구성
-Table
+### kuks_board Table
 
-DDL
+| Columns       | Datatype  | Default   | Comments            |
+|--------------|-------------|----------|-----------------|
+| idx          | bigint      | -        | 자동 증가되는 인덱스 |
+| contents     | varchar(255)| NULL     | 게시글 내용     |
+| createdAt    | datetime(6) | NULL     | 생성일시        |
+| createdBy    | varchar(255)| NULL     | 생성자          |
+| title        | varchar(255)| NULL     | 제목            |
+
+### kuks_board DDL
 CREATE TABLE `kuks_board` (
   `idx` bigint NOT NULL AUTO_INCREMENT,
   `contents` varchar(255) DEFAULT NULL,
   `createdAt` datetime(6) DEFAULT NULL,
   `createdBy` varchar(255) DEFAULT NULL,
   `title` varchar(255) DEFAULT NULL,
-  `created_at` datetime(6) DEFAULT NULL,
-  `created_by` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`idx`))
 
 
