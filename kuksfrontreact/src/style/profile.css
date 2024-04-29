@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    height: 100vh; /* 화면 전체 높이 */
+    align-items: center; /* 수직 가운데 정렬 */
+}
+
+.section {
+    width: 50%; /* 화면의 절반 */
+    border: 1px solid #ccc; /* 섹션 경계선 */
+    padding: 20px; /* 내부 여백 */
+}
+
+.gap {
+    width: 20px; /* 간격의 너비 */
+}
