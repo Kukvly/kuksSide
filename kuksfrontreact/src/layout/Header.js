@@ -15,7 +15,7 @@ const Header = () => {
                 <a href="https://github.com/Kukvly" className="menu-item bold-text"><FaGithub/>&nbsp; Kuks Github</a>
                 <a href="https://pomi-4-me.tistory.com/" className="menu-item bold-text"><TistoryIcon/>&nbsp; Kuks Tistory</a>
                 <a href="http://localhost:8090" className="menu-item bold-text"><AiOutlineAudit/>&nbsp;Kuks SNS</a>
-                <a href="/auth" className="menu-item bold-text"><IoIosPerson/>&nbsp; Kuks</a>
+                <a href="/auth" className="menu-item bold-text"><IoIosPerson/>&nbsp; Kuks Profile</a>
             </div>
             <hr/>
         </header>
