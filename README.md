@@ -25,7 +25,6 @@
 <li> Nodejs</li>
 <li> MySQL</li>
 <li> Github</li>
-<li> Git-LFS </li>
 <li> Gradle</li>
 <li> Java</li>
 <li> Javascript</li>
@@ -106,7 +105,6 @@ $ node app
   ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=visual-studio-code)
 - Version Control: ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
   ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)
-  ![Git LFS](https://img.shields.io/badge/Git%20LFS-F44A4A?style=flat-square&logo=git&logoColor=white)
 - Build Tools: ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
 - Database:   ![MySQL Workbench](https://img.shields.io/badge/MySQL%20Workbench-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
