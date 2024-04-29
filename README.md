@@ -46,8 +46,8 @@ kukssns: http://localhost:8090
 <ul>
   <li>Home: View posts</li>
   <li>Post: Create post</li>
-  <li>Kuks Github: Kim Yoon Guk's GitHub repository</li>
-  <li>Kuks Tistory: Kim Yoon Guk's Tistory blog</li>
+  <li>Kuks Github: Kim Yoon Kuk's GitHub repository</li>
+  <li>Kuks Tistory: Kim Yoon Kuk's Tistory blog</li>
   <li>Kuks SNS: SNS service application implemented with Node.js</li>
   (Move to SNS service providing functions such as posting, deleting, uploading photos, tag search, follow, and following)
   <li>Kuks: Check profiles such as resumes and career descriptions via Kakao authentication</li>
