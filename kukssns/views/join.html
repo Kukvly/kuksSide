@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="timeline">
+    <form id="join-form" action="/auth/join" method="post">
+      <div class="input-group">
+        <label for="join-email">e-mail</label>
+        <input id="join-email" type="email" name="email"></div>
+      <div class="input-group">
+        <label for="join-nick">nickname</label>
+        <input id="join-nick" type="text" name="nick"></div>
+      <div class="input-group">
+        <label for="join-password">password</label>
+        <input id="join-password" type="password" name="password">
+      </div>
+      <button id="join-btn" type="submit" class="btn">sign up</button>
+    </form>
+  </div>
+{% endblock %}
+
+{% block script %}
+  <script>
+    window.onload = () => {
+      if (new URL(location.href).searchParams.get('error')) {
+        alert('This e-mail already exists.');
+      }
+    };
+  </script>
+{% endblock %}
