@@ -1,13 +1,11 @@
 package kuks.back.kuksbackboot;
 
-import jakarta.servlet.http.HttpServletRequest;
 import kuks.back.kuksbackboot.db.BoardEntity;
 import kuks.back.kuksbackboot.dto.BoardSaveDto;
 import kuks.back.kuksbackboot.util.Header;
 import kuks.back.kuksbackboot.util.Search;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
@@ -42,4 +40,5 @@ public class BoardController {
     Header<String> deleteBoard(@PathVariable Long idx) {
         return boardService.deleteBoard(idx);
     }
+
 }

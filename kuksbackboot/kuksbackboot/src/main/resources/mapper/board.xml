@@ -5,8 +5,8 @@
     SELECT IDX
     , TITLE
     , CONTENTS
-    , CREATEDBY
-    , CREATEDAT
+    , CREATED_BY
+    , CREATED_AT
     FROM KUKS_BOARD
     WHERE 1=1
 
@@ -18,7 +18,7 @@
             AND CONTENTS LIKE CONCAT('%', #{sv}, '%')
         </if>
         <if test="sk == 'createdBy'">
-            AND CREATEDBY LIKE CONCAT('%', #{sv}, '%')
+            AND CREATED_BY LIKE CONCAT('%', #{sv}, '%')
         </if>
     </if>
     ORDER BY IDX DESC
@@ -37,7 +37,7 @@
             AND CONTENTS LIKE CONCAT('%', #{sv}, '%')
         </if>
         <if test="sk == 'createdBy'">
-            AND CREATEDBY LIKE CONCAT('%', #{sv}, '%')
+            AND CREATED_BY LIKE CONCAT('%', #{sv}, '%')
         </if>
     </if>
 </select>
@@ -46,8 +46,8 @@
     SELECT IDX
     , TITLE
     , CONTENTS
-    , CREATEDBY
-    , CREATEDAT
+    , CREATED_BY
+    , CREATED_AT
     FROM KUKS_BOARD
     WHERE IDX = #{idx}
 </select>
@@ -57,8 +57,8 @@
     (
     TITLE
     , CONTENTS
-    , CREATEDBY
-    , CREATEDAT
+    , CREATED_BY
+    , CREATED_AT
     ) VALUES (
     #{title}
     , #{contents}
