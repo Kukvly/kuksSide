@@ -18,15 +18,15 @@ const BoardDetail = () => {
     }, []);
 
     return (
-        <div>
+        <div className="board-detail">
             {loading ? (
-                <h2>loading...</h2>
+                <h2>Loading...</h2>
             ) : (
                 <Board
                     idx={board.idx}
                     title={board.title}
                     contents={board.contents}
-                    createBy={board.createBy}
+                    createdBy={board.createdBy}
                 />
             )}
         </div>

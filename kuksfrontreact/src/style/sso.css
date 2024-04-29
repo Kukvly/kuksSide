@@ -1,0 +1,27 @@
+.kakao-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.kakao-button img {
+    width: 150px; /* 이미지의 너비를 조정하거나 다른 값을 지정하세요 */
+}
+
+.kakao-button-container {
+    text-align: center;
+    font-weight: bold;
+}
+
+.kakao-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    height: calc(100vh - 250px); /* 100px는 footer의 높이에 맞게 조절하세요 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

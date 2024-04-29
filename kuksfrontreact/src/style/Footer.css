@@ -1,0 +1,21 @@
+.footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    width: 100%; /* 푸터의 너비를 조정합니다. */
+    margin: 0 auto; /* 수평 가운데 정렬 */
+}
+
+hr {
+    width: 100%; /* 선의 너비를 푸터의 전체 너비로 설정합니다. */
+}

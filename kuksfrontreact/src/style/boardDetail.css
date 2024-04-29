@@ -1,0 +1,60 @@
+.board-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.board-detail h2 {
+    text-align: center;
+}
+
+.board-detail .loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+
+.board-detail .board-info {
+    margin-bottom: 20px;
+}
+
+.board-detail .board-info label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.board-detail .board-info input[type="text"],
+.board-detail .board-info textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.board-detail .button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.board-detail .button-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.board-detail .button-group .btn-save {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.board-detail .button-group .btn-cancel {
+    background-color: #6c757d;
+    color: #fff;
+}

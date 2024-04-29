@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {useNavigate} from "react-router-dom";
 import axios from "axios";
-
+import "../style/boardWrite.css";
 const BoardWrite = () => {
     const navigate = useNavigate();
 
@@ -23,46 +23,34 @@ const BoardWrite = () => {
 
     const saveBoard = async () => {
         await axios.post(`http://localhost:8081/board`, board).then((res) => {
-            alert('등록되었습니다.');
-            navigate('/board');
+            alert('Post was submitted.');
+            navigate('/');
         });
     };
 
     const backToList = () => {
-        navigate('/board');
+        navigate('/');
     };
 
     return (
-        <div>
-            <div>
-                <span>제목</span>
-                <input type="text" name="title" value={title} onChange={onChange}/>
+        <div className="form-container">
+            <h2 className="heading bold-text">Write Contents</h2>
+            <div className="input-group">
+                <label className="input-label bold-text">Title</label>
+                <input type="text" name="title" value={title} onChange={onChange} className="input-field"/>
             </div>
-            <br/>
-            <div>
-                <span>작성자</span>
-                <input
-                    type="text"
-                    name="createdBy"
-                    value={createdBy}
-                    onChange={onChange}
-                />
+            <div className="form-group">
+                <label htmlFor="createdBy">Writer</label>
+                <input type="text" name="createdBy" id="createdBy" value={createdBy} onChange={onChange}/>
             </div>
-            <br/>
-            <div>
-                <span>내용</span>
-                <textarea
-                    name="contents"
-                    cols="30"
-                    rows="10"
-                    value={contents}
-                    onChange={onChange}
-                ></textarea>
+            <div className="form-group">
+                <label htmlFor="contents">Contents</label>
+                <textarea name="contents" id="contents" cols="30" rows="10" value={contents}
+                          onChange={onChange}></textarea>
             </div>
-            <br/>
-            <div>
-                <button onClick={saveBoard}>저장</button>
-                <button onClick={backToList}>취소</button>
+            <div className="button-group">
+                <button onClick={saveBoard} className="btn-save">Save</button>
+                <button onClick={backToList} className="btn-cancel">Cancle</button>
             </div>
         </div>
     );

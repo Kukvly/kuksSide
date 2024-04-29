@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {useNavigate, useParams} from "react-router-dom";
 import axios from "axios";
-import boardWrite from "./BoardWrite";
-
+import "../style/boardEdit.css";
 const BoardUpdate = () => {
     const navigate = useNavigate();
     // /update/:idx와 동일한 변수명으로 데이터 꺼낼 수 있음
@@ -45,31 +44,24 @@ const BoardUpdate = () => {
     }, []);
 
     return (
-        <div>
-            <div>
-                <span>Title</span>
-                <input type="text" name="title" value={"title"} onChange={onChange}/>
+        <div className="container">
+            <h2 className="heading bold-text">Edit Contents</h2>
+            <div className="input-group">
+                <label className="input-label bold-text">Title</label>
+                <input type="text" name="title" value={title} onChange={onChange} className="input-field"/>
             </div>
-            <br />
-            <div>
-                <span>Writer</span>
-                <input type="text" name="createdBy" value={"createdBy"} readOnly={true}/>
+            <div className="input-group">
+                <label className="input-label bold-text">Writer</label>
+                <input type="text" name="createdBy" value={createdBy} onChange={onChange} className="input-field" readOnly/>
             </div>
-            <br />
-            <div>
-                <span>Contents</span>
-                <textarea
-                    name="contents"
-                    cols="30"
-                    rows="10"
-                    value={contents}
-                    onChange={onChange}
-                ></textarea>
+            <div className="input-group">
+                <label className="input-label bold-text" >Contents</label>
+                <textarea name="contents" cols="30" rows="10" value={contents} onChange={onChange}
+                          className="input-field"></textarea>
             </div>
-            <br />
-            <div>
-                <button onClick={updateBoard}>edit</button>
-                <button onClick={backToDetail}>cancle</button>
+            <div className="button-group">
+                <button onClick={updateBoard} className="button save-button">Save</button>
+                <button onClick={backToDetail} className="button cancel-button">Cancle</button>
             </div>
         </div>
     );

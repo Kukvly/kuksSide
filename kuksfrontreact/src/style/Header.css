@@ -1,0 +1,26 @@
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* 아이템의 최소 너비와 최대 너비를 지정합니다 */
+    gap: 10px; /* 아이템 간 간격을 설정합니다 */
+}
+
+.menu-item {
+    padding: 8px 12px;
+    border: none; /* 경계선 제거 */
+    background-color: transparent; /* 배경색 제거 */
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* 호버 효과 부드럽게 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    display: flex; /* Flexbox를 사용하여 수직 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    justify-content: center; /* 수평 가운데 정렬 */
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0; /* 호버 시 배경색 변경 */
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 10px; /* 마지막 메뉴 항목을 제외한 항목들에 오른쪽 여백 추가 */
+}
