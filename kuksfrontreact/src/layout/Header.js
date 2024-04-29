@@ -13,9 +13,11 @@ const Header = () => {
                 <a href="/" className="menu-item bold-text"><BiHome/>&nbsp;Home</a>
                 <a href="/board" className="menu-item bold-text"><FaPencilAlt/>&nbsp;Post</a>
                 <a href="https://github.com/Kukvly" className="menu-item bold-text"><FaGithub/>&nbsp; Kuks Github</a>
-                <a href="https://pomi-4-me.tistory.com/" className="menu-item bold-text"><TistoryIcon/>&nbsp; Kuks Tistory</a>
+                <a href="https://pomi-4-me.tistory.com/" className="menu-item bold-text">
+                    <TistoryIcon/>&nbsp; Kuks Tistory
+                </a>
                 <a href="http://localhost:8090" className="menu-item bold-text"><AiOutlineAudit/>&nbsp;Kuks SNS</a>
-                <a href="/auth" className="menu-item bold-text"><IoIosPerson/>&nbsp; Kuks Profile</a>
+                <a href="/auth" className="menu-item bold-text"><IoIosPerson/>&nbsp; Kuks</a>
             </div>
             <hr/>
         </header>

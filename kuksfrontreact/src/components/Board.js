@@ -31,9 +31,9 @@ const Board = ({idx, title, contents, createdBy}) => {
                 <p>{contents}</p>
             </div>
             <div className="button-group">
-                <button onClick={moveToUpdate} className="btn-edit">수정</button>
-                <button onClick={deleteBoard} className="btn-delete">삭제</button>
-                <button onClick={moveToList} className="btn-list">목록</button>
+                <button onClick={moveToUpdate} className="btn-edit">Edit</button>
+                <button onClick={deleteBoard} className="btn-delete">Delete</button>
+                <button onClick={moveToList} className="btn-list">List</button>
             </div>
         </div>
     );
