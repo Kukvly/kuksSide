@@ -13,9 +13,26 @@ const KuksProfile = () => {
                 <div className="container">
                         <div className="section">
                                 <h3><FontAwesomeIcon icon={faProjectDiagram}/> Project Experience</h3>
+                                <li>NH캐피탈 - 업무 지원 (교육)</li>
+
+                                <li>롯데캐피탈 L-ONE 차세대 프로젝트</li>
+
+                                <li>현대캐피탈 추가 개발 프로젝트</li>
+
+                                <li>KB Life One System 차세대 프로젝트 (track2 - Migration)</li>
+
 
                                 <br/>
                                 <h3><GiDiploma/> Education</h3>
+                                <li>홍익대학교사범대학부속고등학교</li>
+                                <ul>
+                                        <li>
+                                                2012.03.02 ~ 2015.02.09
+                                        </li>
+                                        <li>
+                                                학과: 이과
+                                        </li>
+                                </ul>
                                 <li>학점은행제</li>
 
                                 <li>광운대학교</li>
