@@ -1,16 +1,19 @@
 .container {
     display: flex;
-    justify-content: center; /* 수평 가운데 정렬 */
     height: 100vh; /* 화면 전체 높이 */
     align-items: center; /* 수직 가운데 정렬 */
+    overflow-y: auto; /* 수직 스크롤만 표시되도록 설정 */
+    max-height: 70%; /* 최대 높이 지정하여 내용이 길어질 경우 스크롤이 나타나도록 함 */
 }
 
 .section {
     width: 50%; /* 화면의 절반 */
-    border: 1px solid #ccc; /* 섹션 경계선 */
+    /*border: 1px solid #ccc; !* 섹션 경계선 *!*/
     padding: 20px; /* 내부 여백 */
+    margin-top: 350px;
+    margin-bottom: 100px;
 }
 
-.gap {
-    width: 20px; /* 간격의 너비 */
-}
+/*.gap {*/
+/*    width: 20px; !* 간격의 너비 *!*/
+/*}*/
