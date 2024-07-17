@@ -118,13 +118,13 @@ src="https://github.com/user-attachments/assets/fda072cb-6582-4080-9c2e-3cb4dfba
 
 
 <h3><li>Post</li></h3>
-<img width="1172" alt="스크린샷 2024-07-18 오전 12 12 54"
-src="https://github.com/user-attachments/assets/1a3a0162-7db1-4861-931a-acfd1d5ed002">
+<img width="1172" alt="스크린샷 2024-07-18 오전 12 51 59"
+src="https://github.com/user-attachments/assets/8bbcc94b-6299-4aaa-b9a4-46455c0d4da6">
 
 
 <h3><li>Edit/Delete/List</li></h3>
-<img width="1172" alt="스크린샷 2024-07-18 오전 12 18 55"
-src="https://github.com/user-attachments/assets/16fefc1b-0bae-4548-b8ed-211f6dadf0e5">
+<img width="1172" alt="스크린샷 2024-07-18 오전 12 52 12"
+src="https://github.com/user-attachments/assets/3c9f1834-db71-4c5b-b26c-f16a1ebeb4d9">
 
 
 <h3><li>Kuks Github</li></h3>
