@@ -4,6 +4,8 @@ import { FaGithub, FaPencilAlt } from 'react-icons/fa';
 import { IoIosPerson } from 'react-icons/io';
 import { ReactComponent as TistoryIcon } from '../public/tistory-icon.svg';
 import { AiOutlineAudit } from "react-icons/ai";
+import { IoCalculator } from 'react-icons/io5';
+
 import '../style/Header.css';
 
 const Header = () => {
@@ -18,6 +20,7 @@ const Header = () => {
                 </a>
                 <a href="http://localhost:8090" className="menu-item bold-text"><AiOutlineAudit/>&nbsp;Kuks SNS</a>
                 <a href="/auth" className="menu-item bold-text"><IoIosPerson/>&nbsp; Kuks</a>
+                <a href="" className="menu-item bold-text"><IoCalculator/>Calculater</a>
             </div>
             <hr/>
         </header>
