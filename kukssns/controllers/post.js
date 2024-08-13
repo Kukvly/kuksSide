@@ -29,3 +29,9 @@ exports.uploadPost = async (req, res, next) => {
     next(error);
   }
 };
+
+
+exports.deletePost = (req, res) => {
+  console.log(req);
+  console.log(res);
+};
