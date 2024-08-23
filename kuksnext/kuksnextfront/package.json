@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "16": "^0.0.2",
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^5.0.1"
+  },
+  "author": "kuks",
+  "name": "kuksnextfront",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start"
+  },
+  "license": "ISC",
+  "description": ""
+}
