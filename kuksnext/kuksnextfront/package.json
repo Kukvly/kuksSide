@@ -1,10 +1,14 @@
 {
   "dependencies": {
     "16": "^0.0.2",
+    "@ant-design/icons": "^5.4.0",
+    "antd": "^5.20.2",
     "next": "^9.5.5",
+    "prop-types": "^15.8.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.12"
   },
   "author": "kuks",
   "name": "kuksnextfront",
@@ -16,5 +20,11 @@
     "start": "next start"
   },
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2"
+  }
 }
