@@ -4,6 +4,8 @@
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
+    display: flex; /* Flexbox 사용 */
+    flex-direction: column; /* 세로 방향으로 배치 */
 }
 
 .heading {
@@ -29,6 +31,7 @@
 
 .button-group {
     text-align: center;
+    margin-top: 20px; /* 버튼 그룹 위쪽 여백 추가 */
 }
 
 .button {
