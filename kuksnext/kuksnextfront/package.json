@@ -15,7 +15,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev -p 3001",
+    "dev": "NODE_OPTIONS='--openssl-legacy-provider' next dev -p 3001",
     "build": "next build",
     "start": "next start"
   },

@@ -10,9 +10,9 @@ const profile = () => {
             </Head>
 
         <AppLayout>
-            <div>
-                kuks profiles
-            </div>
+            <NicknameEditForm />
+            <FollowList header={} />
+            <FollowList />
         </AppLayout>
         </>
     )

@@ -32,7 +32,7 @@ const AppLayout = ({children}) => {
             </Menu>
             <Row gutter={8}>
                 <Col xs={24} md={6}>
-                    {isLoggedIn ? <UserProfile/> : <LoginForm/>}
+                    {isLoggedIn ? <UserProfile setIsLoggedIn={setIsLoggedIn}/> : <LoginForm setIsLoggedIn={setIsLoggedIn}/>}
                 </Col>
 
                 <Col xs={24} md={12}>
@@ -40,9 +40,9 @@ const AppLayout = ({children}) => {
                 </Col>
 
                 <Col xs={24} md={6}>
+                    <a href="https://pomi-4-me.tistory.com" target="_blank" rel={"noreferrer noopener"}>Made by Kukvly</a>
                 </Col>
             </Row>
-            <a href="https://pomi-4-me.tistory.com" target="_blank" rel={"noreferrer noopener"}>Made by Kukvly</a>
 
         </div>
     );

@@ -1,4 +1,4 @@
-import React, {useCallback, useState} from 'react';
+import React, {useCallback, useState, useMemo} from 'react';
 import {Form, Input, Button} from 'antd';
 import Link from 'next/link';
 import styled from "styled-components";
@@ -7,7 +7,12 @@ const ButtonWrapper = styled.div`
 margin-top: 10px
 `;
 
-const loginForm = () => {
+const FormWrapper = styled(Form)`
+    padding:10px;
+`
+
+
+const LoginForm = ({setIsLoggedIn}) => {
     const [id, setId] = useState('');
     const [password, setPassword] = useState('');
 
@@ -19,9 +24,17 @@ const loginForm = () => {
         setPassword(e.target.value);
     }, []);
 
+    // useMemo로 인한 에러가 발생함
     const style = useMemo(() => ({marginTop: 10}), []);
+
+    const onSubmitForm = useCallback((e) => {
+        console.log(id, password);
+        setIsLoggedIn(true)
+        $('#loginForm').text('hello');
+    }, [id, password]);
+
     return (
-        <Form>
+        <FormWrapper onFinish={onSubmitForm}>
             <div>
                 <label htmlFor="user-id">ID</label>
                 <br/>
@@ -40,16 +53,18 @@ const loginForm = () => {
                 <Button type="primary" htmlType="submit" loading={false}>Login</Button>
                 <Link href="/signup"><a><Button>Sign Up</Button></a></Link>
             </ButtonWrapper>
+
             <div>
 
             </div>
+
             <div>
 
             </div>
 
 
-        </Form>
+        </FormWrapper>
     );
 }
 
-export default loginForm;
+export default LoginForm;
