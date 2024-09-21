@@ -20,7 +20,7 @@ const Header = () => {
                 </a>
                 <a href="http://localhost:8090" className="menu-item bold-text"><AiOutlineAudit/>&nbsp;Kuks SNS</a>
                 <a href="/auth" className="menu-item bold-text"><IoIosPerson/>&nbsp; Kuks</a>
-                <a href="" className="menu-item bold-text"><IoCalculator/>Calculater</a>
+                <a href="" className="menu-item bold-text"><IoCalculator/>Calculator</a>
             </div>
             <hr/>
         </header>
