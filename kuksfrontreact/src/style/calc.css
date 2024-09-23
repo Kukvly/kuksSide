@@ -1,0 +1,78 @@
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #f9f9f9; /* 전체 배경색 추가 */
+}
+
+.InputBar {
+    width: 100%; /* 부모 컨테이너의 크기에 맞춰 인풋박스가 중앙에 위치하게 설정 */
+    max-width: 450px;
+    height: 65px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 2px solid #4b89dc;
+    text-align: right;
+    padding-right: 20px;
+    box-shadow: 0 2px 5px lightgray;
+}
+
+.InputBar:focus {
+    outline: none;
+}
+
+.ButtonContainer {
+    display: grid;
+    width: 100%; /* 부모 컨테이너 크기에 맞추어 버튼들이 중앙에 위치 */
+    max-width: 450px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.Button {
+    background-color: #f2f3f5;
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 35px;
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: 3px 3px 3px lightgray;
+    transition: 0.2s ease;
+}
+
+.Button:active {
+    margin-left: 2px;
+    margin-top: 2px;
+    box-shadow: none;
+}
+
+.CalButton {
+    background-color: #4b89dc;
+    color: white;
+    font-size: 2rem;
+}
+
+.ZeroButton {
+    grid-column: 1 / 3;
+}
+
+h1 {
+    text-align: center; /* 제목 가운데 정렬 */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* 부모 요소 중앙 정렬 */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}

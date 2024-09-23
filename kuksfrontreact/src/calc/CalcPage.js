@@ -1,9 +1,9 @@
 import Calculator from "./Calculator";
+import "../style/calc.css";
 
 const CalcPage = () => {
     return(
-        <div>
-            <h1>Kuks Calculator</h1>
+        <div className="form-container">
             <Calculator/>
         </div>
     );

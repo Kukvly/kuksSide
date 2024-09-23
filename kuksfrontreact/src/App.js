@@ -7,6 +7,7 @@ import BoardUpdate from "./routes/BoardUpdate";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SsoKakao from "./sso/SsoKakao";
 import KuksProfile from "./profile/KuksProfile";
+import Calculator from "./calc/Calculator";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/update/:idx" element={<BoardUpdate/>}/>
             <Route path="/auth" element={<SsoKakao/>}/>
             <Route path="/profile" element={<KuksProfile/>}/>
+            <Route path="/calc" element={<Calculator/>}/>
         </Routes>
     );
 }
