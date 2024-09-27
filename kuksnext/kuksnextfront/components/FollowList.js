@@ -25,5 +25,6 @@ return(
 };
 
 FollowList.propTypes = {
-
-}
+    header: PropTypes.string.isRequired,
+    data: PropTypes.array.isRequired,
+};

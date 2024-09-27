@@ -9,20 +9,20 @@ React Trigger Component
 [![bundle size][bundlephobia-image]][bundlephobia-url]
 [![dumi][dumi-image]][dumi-url]
 
-[npm-image]: http://img.shields.io/npm/v/rc-checkbox.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/rc-checkbox
-[github-actions-image]: https://github.com/react-component/checkbox/workflows/CI/badge.svg
-[github-actions-url]: https://github.com/react-component/checkbox/actions
-[codecov-image]: https://img.shields.io/codecov/c/github/react-component/checkbox/master.svg?style=flat-square
-[codecov-url]: https://codecov.io/gh/react-component/checkbox/branch/master
-[david-url]: https://david-dm.org/react-component/checkbox
-[david-image]: https://david-dm.org/react-component/checkbox/status.svg?style=flat-square
-[david-dev-url]: https://david-dm.org/react-component/checkbox?type=dev
-[david-dev-image]: https://david-dm.org/react-component/checkbox/dev-status.svg?style=flat-square
-[download-image]: https://img.shields.io/npm/dm/rc-checkbox.svg?style=flat-square
-[download-url]: https://npmjs.org/package/rc-checkbox
-[bundlephobia-url]: https://bundlephobia.com/result?p=rc-checkbox
-[bundlephobia-image]: https://badgen.net/bundlephobia/minzip/rc-checkbox
+[npm-image]: http://img.shields.io/npm/v/@rc-component/trigger.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/@rc-component/trigger
+[github-actions-image]: https://github.com/react-component/trigger/workflows/CI/badge.svg
+[github-actions-url]: https://github.com/react-component/trigger/actions
+[codecov-image]: https://img.shields.io/codecov/c/github/react-component/trigger/master.svg?style=flat-square
+[codecov-url]: https://codecov.io/gh/react-component/trigger/branch/master
+[david-url]: https://david-dm.org/react-component/trigger
+[david-image]: https://david-dm.org/react-component/trigger/status.svg?style=flat-square
+[david-dev-url]: https://david-dm.org/react-component/trigger?type=dev
+[david-dev-image]: https://david-dm.org/react-component/trigger/dev-status.svg?style=flat-square
+[download-image]: https://img.shields.io/npm/dm/@rc-component/trigger.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@rc-component/trigger
+[bundlephobia-url]: https://bundlephobia.com/result?p=@rc-component/trigger
+[bundlephobia-image]: https://badgen.net/bundlephobia/minzip/@rc-component/trigger
 [dumi-image]: https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square
 [dumi-url]: https://github.com/umijs/dumi
 
@@ -39,25 +39,26 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Trigger from '@rc-component/trigger';
 
-ReactDOM.render((
+ReactDOM.render(
   <Trigger
     action={['click']}
     popup={<span>popup</span>}
     popupAlign={{
       points: ['tl', 'bl'],
-      offset: [0, 3]
+      offset: [0, 3],
     }}
   >
-    <a href='#'>hover</a>
-  </Trigger>
-), container);
+    <a href="#">hover</a>
+  </Trigger>,
+  container,
+);
 ```
 
 ## Compatibility
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png" alt="Electron" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Electron |
-| --- | --- | --- | --- | --- |
-| IE11, Edge | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IE11, Edge                                                                                                                                                                                                     | last 2 versions                                                                                                                                                                                                  | last 2 versions                                                                                                                                                                                              | last 2 versions                                                                                                                                                                                              | last 2 versions                                                                                                                                                                                                      |
 
 ## Example
 
@@ -242,7 +243,6 @@ npm start
         </tr>
     </tbody>
 </table>
-
 
 ## Test Case
 
