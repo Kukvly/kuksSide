@@ -76,3 +76,16 @@ h1 {
     align-items: center;
     height: 75vh;
 }
+
+/* 추가할 CSS */
+.InputContainer {
+    position: relative;
+}
+
+.Cursor {
+    position: absolute;
+    right: 10px; /* 인풋 바의 오른쪽에 위치하도록 조정 */
+    top: 10px; /* 인풋 바의 중앙에 위치하도록 조정 */
+    font-size: 30px; /* 인풋 바의 글씨 크기와 맞추기 */
+    color: black; /* 커서 색상 */
+}
