@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./kuksfrontreact
+    ports:
+      - "3000:80"
+    networks:
+      - kuks-network
+
+  backend:
+    build: ./kuksbackboot
+    ports:
+      - "8081:8081"  # ✅ 바뀐 포트
+    networks:
+      - kuks-network
+
+networks:
+  kuks-network:
+    driver: bridge

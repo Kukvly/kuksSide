@@ -17,7 +17,7 @@
   <li>How to Run the Project</li>
   <li>Language</li>
   <li>Tools</li>
-<h2>Tech Stack</h2>
+  <h2>Tech Stack</h2>
 
 
 <h3># Back-End:</h3>
@@ -50,6 +50,7 @@ kukssns: http://localhost:8090
   <li>Kuks SNS: SNS service application implemented with Node.js</li>
   (Move to SNS service providing functions such as posting, deleting, uploading photos, tag search, follow, and following)
   <li>Kuks: Check profiles such as resumes and career descriptions via Kakao authentication</li>
+  <li>Calculator: You can use this calculator to evaluate mathematical expressions.</li>
 </ul>
 
 
